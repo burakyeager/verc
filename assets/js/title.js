@@ -1,6 +1,6 @@
 const t = document.querySelector("title"),
-  w = "Rynix",
-  e = "El Chavo";
+  w = "burak",
+  e = "burakyeager";
 let c = 0;
 setInterval(() => {
   c = c < w.length ? c + 1 : 0;
