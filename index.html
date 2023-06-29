@@ -1,165 +1,1108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <title></title>
-    <script src="assets/js/title.js"></script>
-    <link
-      rel="shortcut icon"
-      href="https://cdn.discordapp.com/avatars/689539800193433643/47412a55e67dc6deeee1a69ba4dcfcf2.png"
-      type="image/x-icon"
-    />
-    <meta property="og:title" content="burakyeagerr hakkında bi kaç ıvır zıvır" />
-    <meta property="og:description" content="Merhaba! Portofyomu mu görmek istiyorsun? O zaman doğru adrestesin. Bağlantıya tıkla ve muhteşem sayfamı aç." />
-    <meta
-      property="og:image"
-      content="https://cdn.discordapp.com/attachments/1086934289616211990/1087292682596012134/image.png"
-    />
-  </head>
-  <body>
-    <header>
-      <a href="#" class="logo">burakyeagerr</a>
-      <div class="menuToggle"></div>
-      <ul class="nav">
-        <li class="active"><a href="#home">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#technologies">Technologies</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
-    <section id="home">
-      <div class="content">
-        <h2>
-          I'm
-          <span
-            class="typewrite"
-            data-period="2000"
-            data-words='["burak.", " burakyeager.", "FullStack Developer."]'
-          ></span>
-        </h2>
-        <p>
-          Hello, I'm Burak. I'm a Full Stack Developer. I can make a discord bot for
-          you.
-        </p>
-        <a href="mailto:burakyeagerr@gmail.com" class="btn">Contact Me</a>
-      </div>
-    </section>
-    <section id="portfolio">
-      <div class="secText">
-        <h2>What I Am Great At</h2>
-        <p>I am good at these subjects and I am improving myself day by day.</p>
-      </div>
-      <div class="content">
-        <div class="servicesBx">
-          <img src="assets/img/icon1.png" alt="" />
-          <h3>Web Designing</h3>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burak Yücetürk</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+  <figure class="avatar-box">
+          <img src="https://cdn.discordapp.com/attachments/848972373231009863/1124022595289874512/image.png" alt="Burak Yücetürk" width="80">
+  </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Burak Yücetürk">Burak Yücetürk</h1>
+
+          <p class="title">Full Stack Developer</p>
         </div>
-        <div class="servicesBx">
-          <img src="assets/img/icon2.png" alt="" />
-          <h3>Web Development</h3>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:burakyc@proton.me" class="contact-link">burakyc@proton.me</a>
+            </div>
+
+          </li>
+
+
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Doğum Günü</p>
+
+              <time datetime="2006-05-22">22 Mayıs, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Lokasyon</p>
+
+              <address>İzmir - Bornova</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+
+          <li class="social-item">
+            <a href="https://twitter.com/burakyeagerr" class="social-link">
+              <ion-icon class = "socials-icons" name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/burakyeagerr" class="social-link">
+              <ion-icon class = "socials-icons" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Hakkımda</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Gelişim</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portföy</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>İletişim</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="hakkımda  active" data-page="hakkımda">
+
+        <header>
+          <h2 class="h2 article-title">Hakkımda</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           Ben Burak Yücetürk, Türkiye İzmirde yaşıyorum. Web Geliştirme ve Grafik Tasarım alanında çalışıyorum. Karmaşık sorunları basit, güzel ve sezgisel tasarımlara dönüştürmekten keyif alıyorum.
+          </p>
+
+          <p>
+            Benim işim, web sitenizi işlevsel ve kullanıcı dostu ama aynı zamanda çekici olacak şekilde oluşturmak. Ayrıca ürününüze kişisel bir dokunuş katıyor, göz alıcı ve kolay kullanımlı olmasını sağlıyorum. Amacım, mesajınızı ve kimliğinizi en yaratıcı şekilde ortaya çıkarmaktır. Bir çok marka ve firmaya web tasarım yaptım.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ben ne yapıyorum?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Profesyonel düzeyde yapılan en modern ve kaliteli tasarım.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Profesyonel düzeyde sitelerin yüksek kaliteli gelişimi.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Sosyal Medya Uzmanı</h4>
+
+                <p class="service-item-text">
+                  Sosyal medya hesaplarının düzgün şekilde yönetilmesini ve gelişmesini sağlıyorum. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Grafik Tasarım</h4>
+
+                <p class="service-item-text">
+                 Profesyonel düzeyde her kategoride yüksek kaliteli tasarımlar yapıyorum.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Görüşler</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Orkun" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Orkun Kökçü</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Burağı bir tasarım yaptırmak için işe aldım. Yapılan çalışmalardan çok memnun kaldım. Çok fazla deneyimi var ve müşterinin ihtiyaçları konusunda çok endişeli.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Ceylin Ayaz" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ceylin Ayaz</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  Burak, kurumsal bir site yaptırmak için işe aldık. Ve yaptığı siteden çok memnun kaldık müşterilerini önemsiyor.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Duru Uçsuz" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Duru Uçsuz</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Burak çok iyi siteler geliştiriyor ve müşterilerine her konuda destek sağlıyor. Gayet memnunum.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Eyüp Kuş" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Eyüp Kuş</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Burak çok güzel tasarımlar ortaya çıkarıyor sürekli müşterisiyim ve öyle olmaya devam edeceğim.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2023-02-04">4 Şubat, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
         </div>
-        <div class="servicesBx">
-          <img src="assets/img/icon3.png" alt="" />
-          <h3>Discord Bot</h3>
-        </div>
-        <div class="servicesBx">
-          <img src="assets/img/icon4.png" alt="" />
-          <h3>UI Desing</h3>
-        </div>
-      </div>
-      <div class="center">
-        <a href="mailto:burakyeagerr@gmail.com" class="btn">Hire Me</a>
-      </div>
-    </section>
-    <section id="services">
-      <div class="secText">
-        <h2>My Service Collection</h2>
-        <p>
-          I have provided timely service to the following platforms and continue
-          to work on some of them.
-        </p>
-      </div>
-      <div class="content">
-        <div class="servicesBx">
-          <a href="https://picon.com.tr" target="_blank"
-            ><img src="https://cdn.discordapp.com/attachments/1086934293391081513/1087019365892894740/piconp.png" alt=""
-          /></a>
-          <h3>Picon</h3>
-        </div>
-        <div class="servicesBx">
-          <a href="https://.com" target="_blank"
-            ><img src="assets/img/img4.png" alt=""
-          /></a>
-          <h3>Yakında</h3>
-        </div>
-               <div class="servicesBx">
-          <a href="https://discord.gg/uvNhWKzVxy" target="_blank"
-            ><img src="https://cdn.discordapp.com/attachments/1086934293391081513/1087022928295645235/5dee386dd049dc8c5be1956158a8e2f2_1.png" alt=""
-          /></a>
-          <h3>Vionaty #CraftRise</h3>
-        </div>
-      </div>
-      <div class="center">
-        <a href="#services" class="btn">View More</a>
-      </div>
-    </section>
-    <section id="technologies">
-      <div class="secText">
-        <h2>Technologies I Use</h2>
-        <p>
-          Below you can find the technologies I use. (There are technologies
-          that I did not add, such as yarn)
-        </p>
-      </div>
-      <div class="content">
-        <p><ion-icon name="logo-javascript"></ion-icon>JavaScript</p>
-        <p><ion-icon name="logo-nodejs"></ion-icon>NodeJS</p>
-        <p><ion-icon name="logo-discord"></ion-icon>Discord.js</p>
-        <p><ion-icon name="logo-vercel"></ion-icon>Vercel</p>
-        <p><ion-icon name="logo-html5"></ion-icon>HTML5</p>
-        <p><ion-icon name="logo-css3"></ion-icon>CSS3</p>
-        <p><ion-icon name="logo-github"></ion-icon>Github</p>
-        <p><ion-icon name="logo-react"></ion-icon>React</p>
-        <p><ion-icon name="logo-vue"></ion-icon>Vue</p>
-        <p><ion-icon name="git-branch-outline"></ion-icon>Git</p>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="secText">
-        <h2>Ways To Contact Me</h2>
-        <p>You can reach me from the platforms below.</p>
-      </div>
-      <div class="content">
-        <a href="mailto:burak@burakyeager.com.tr">
-          <ion-icon name="mail-outline"></ion-icon>burak@burakyeager.com.tr
-        </a>
-        <a href="https://discord.com/users/689539800193433643" target="_blank">
-          <ion-icon name="logo-discord"></ion-icon>burakyeagerr#007
-        </a>
-        <a href="https://instagram.com/burakyeagerr" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>burakyeagerr
-        </a>
-        <a href="https://github.com/burakyeager" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>burakyeager
-        </a>
-      </div>
-      <div class="center">
-        <p class="copyrights">This website developed by burakyeager with 💖</p>
-      </div>
-    </section>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/test.js"></script>
-  </body>
+
+
+        <!--
+          - clients
+        -->
+
+
+
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="gelişim" data-page="gelişim">
+
+        <header>
+          <h2 class="h2 article-title">Gelişim</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Öğretim</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bornova Mimar Sinan Mesleki ve Teknik Anadolu Lisesi</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                Çünkü hiç kimse mevcut zevkleri pohpohlayarak hazzın kendisini yok etmez ve hangi acıları ve hangi dertleri bozmaz.
+istisna
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Yavuz Sultan Selim OrtaOkulu</h4>
+
+              <span>2016 — 2020</span>
+
+              <p class="timeline-text">
+                Aklın zevkinin peşinden gitmeyi bilmiyorlar, biz her türlü hataya cüret ediyoruz, her zevki herkes üstlenmeli.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Malazgirt İlkokulu</h4>
+
+              <span>2012 — 2016</span>
+               Şüpheler ya da ender rastlanan acı, zevkte azarlanır, sanki zevk nefret eder ya da kaçar, ama onları büyük acılar takip eder.
+              <p class="timeline-text">    
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Deneyimler</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Grafik Tasarım</h4>
+
+              <span>2022 — Güncel</span>
+
+              <p class="timeline-text">
+                Bir buçuk yıldır grafik tasarımla ilgileniyorum discord üzerinden tasarım satışları yapıyorum. Hobi olarak devam etmekteyim.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Geliştirme</h4>
+
+              <span>2020 — Güncel</span>
+
+              <p class="timeline-text">
+                3 Yıldır web geliştirme okuyorum ve kendimi de bu konu da geliştirmeye çalışıyorum. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sosyal Medya Uzmanlığı</h4>
+
+              <span>2022 — Güncel</span>
+
+              <p class="timeline-text">
+                1 Yıldır sosyal medya uzmanlığıyla ilgileniyorum ve bu konu hakkımda bir çok eğitim alıyorum. Kendimi daha da geliştirmeye çalışıyorum.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Beceriler</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Geliştirme</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Grafik Tasarım</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photoshop CC</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Visual Studio Code</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portföy" data-page="portföy">
+
+        <header>
+          <h2 class="h2 article-title">Portföy</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Hepsi</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Tasarım</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Uygulamalar</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Kategori Seçin</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Hepsi</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Tasarım</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Uygulamalar</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web tasarım">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web Tasarım</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="uygulamalar">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Uygulamalar</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web tasarım">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web Tasarım</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web tasarım">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="uygulamalar">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Uygulamalar</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1102286080612499517/1123327662723707003/borangkdnbanner.png" alt="Boran Gökden - Tasarım" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tasarım</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">27 Haziran, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Boran Gökden - Tasarım</h3>
+
+                  <p class="blog-text">
+                    Boran Gökden, Discord, YouTube banner tasarımı.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1102286080612499517/1118096640830603356/atekdevelopmentbanner.png" alt="Atek Development" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tasarım</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-06-13">13 Haziran, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Atek Development - Tasarım</h3>
+
+                  <p class="blog-text">
+                    Atek Development, Discord banner tasarımı.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1102286080612499517/1111757365935607870/BotClubBannerss.png  " alt="BotClub" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tasarım</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-05-26">26 Mayıs, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">BotClub - Tasarım</h3>
+
+                  <p class="blog-text">
+                    BotClub, Discord banner tasarım.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1102286080612499517/1110615532824166572/senintercihinbanner.png" alt="Senin Tercihin" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tasarım</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-05-23">23 Mayıs, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Senin Tercihin - Tasarım</h3>
+
+                  <p class="blog-text">
+                    Senin Tercihin, Banner tasarım.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1102286109079257310/1104386634650230804/auroranetworkbanner4.png" alt="Aurora Network" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tasarım</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-05-05">05 Mayıs, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Aurora Network - Tasarım</h3>
+
+                  <p class="blog-text">
+                    Aurora Network, Minecraft, Discord banner tasarım.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1104386743509201006/1104386978411196427/Screenshot_20230425-180917_Gallery.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tasarım</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-04-25">25 Nisan, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Zwen Media - Tasarım</h3>
+
+                  <p class="blog-text">
+                    Zwen Media, Discord banner tasarım.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="İletişim" data-page="İletişim">
+
+        <header>
+          <h2 class="h2 article-title">İletişim</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12494.88763521849!2d27.207390253579668!3d38.47098099908719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b97d1fa79aeb85%3A0xa921686c67f3b44e!2zQm9ybm92YSwgS8SxesSxbGF5LCAzNTAzMCBCb3Jub3ZhL8Swem1pcg!5e0!3m2!1str!2str!4v1688060436464!5m2!1str!2str"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">İletişim Formu</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Adınız" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Mail adresiniz" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Mesajınız" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Gönder</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
